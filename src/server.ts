@@ -7,6 +7,7 @@ const server = express();
 const PORT = 3333;
 
 server.use(express.json());
+
 server.use(routes);
 
 server.listen(PORT, () => {
